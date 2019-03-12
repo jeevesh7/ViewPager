@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_height="20dp"
+        android:text="hisjskjfh"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@id/delete"
+/>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:text="hisjskjfh"
+        android:layout_height="20dp"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_toLeftOf="@id/delete"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:text="Dlt" />
+
+</RelativeLayout>
